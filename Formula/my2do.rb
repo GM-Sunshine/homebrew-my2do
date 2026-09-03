@@ -4,8 +4,8 @@ class My2do < Formula
   # Single-file bash CLI served (versioned + stamped) by the app. On each CLI
   # release, bump `version` + `sha256` with scripts/bump.sh.
   url "https://my2do.app/cli/my2do"
-  version "0.1.1"
-  sha256 "6aa7c87f6f7a473d64eae4547218dcf56b078d33ab4c5c48319c8b30b6d2e381"
+  version "0.1.2"
+  sha256 "7be97bf53d6f947a467f1242663c524efde921afd3419b6b146a237667871e9b"
 
   # Works on macOS and Linux (Homebrew on Linux). curl is already present on
   # both; jq gives the CLI clean JSON (it falls back to python3, but jq is the
